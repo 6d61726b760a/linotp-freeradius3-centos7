@@ -222,6 +222,8 @@ server default {
 
 ### test
 
+* https://www.novell.com/coolsolutions/tools/14377.html
+
 ```
 [root@yourserver:~]# radiusd -X
 FreeRADIUS Version 3.0.13

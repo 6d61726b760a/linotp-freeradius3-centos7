@@ -1,6 +1,6 @@
 # linotp-freeradius3-centos7
 
-The current LinOTP/Freeradius documentation are written for Debian, and to get this working on CentOS we need do things a little differently. 
+The current LinOTP/Freeradius documentation is written for Debian, and to get this working on CentOS we need do things a little differently. 
 
 
 ### assumptions

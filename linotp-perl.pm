@@ -165,7 +165,7 @@ my $LIN_REJECT = ":-(";
 my $LIN_FAIL   = ":-/";
 
 # Read our Config
-our $CONFIG_FILE = "/etc/linotp2/rlm_perl.ini";
+our $CONFIG_FILE = "/etc/raddb/mods-config/perl/radius_linotp.ini";
 our $Config = {};
 our $cfg_file;
 

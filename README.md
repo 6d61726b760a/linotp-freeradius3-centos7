@@ -3,7 +3,8 @@
 The current LinOTP/Freeradius documentation are written for Debian, and to get this working on CentOS we need do things a little differently. 
 
 
-### assumption #1: working linotp
+### assumptions
+#### #1: working linotp
 
 ```
 [root@yourserver:~]# curl -k "https://yourlinotpserver/validate/check?user=<USERNAME>&pass=<OTP>"
@@ -23,7 +24,7 @@ The current LinOTP/Freeradius documentation are written for Debian, and to get t
 [root@yourserver:~]# 
 ```
 
-### assumption #2: os version
+#### #2: os version
 
 ```
 [root@yourserver:~]# cat /etc/redhat-release
@@ -31,7 +32,7 @@ CentOS Linux release 7.4.1708 (Core)
 [root@yourserver:~]# 
 ```
 
-### assumption #3: installed packages
+#### #3: installed packages
 
 ```
 freeradius-3.0.13-8.el7_4.x86_64

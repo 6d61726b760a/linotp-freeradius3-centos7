@@ -54,7 +54,7 @@ perl-Config-IniFiles.noarch
 [root@yourserver:~]# cat clients.conf
 client 10.0.0.10 {
         ipaddr = 10.0.0.10
-        secret = itsasecretconf
+        secret = itsasecret
 }
 
 client 10.0.0.20 {

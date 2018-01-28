@@ -175,14 +175,6 @@ server default {
     }
 
     authorize {
-        preprocess
-        digest
-        suffix
-        ntdomain
-        files
-        expiration
-        logintime
-        pap
         update control {
             Auth-Type := Perl
         }
@@ -192,16 +184,16 @@ server default {
         Auth-Type Perl {
             perl
         }
-        digest
     }
 
     preacct {
-        suffix
+        preprocess
         files
     }
 
     accounting {
         detail
+        unix
     }
 
     session {

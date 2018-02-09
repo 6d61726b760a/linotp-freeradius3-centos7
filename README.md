@@ -38,6 +38,7 @@ CentOS Linux release 7.4.1708 (Core)
 freeradius-3.0.13-8.el7_4.x86_64
 freeradius-perl-3.0.13-8.el7_4.x86_64
 perl-Config-IniFiles.noarch
+perl-Try-Tiny-0.12-2.el7.noarch
 ```
 
 

@@ -216,7 +216,7 @@ server default {
 
 ### test
 
-* https://www.novell.com/coolsolutions/tools/14377.html
+* [https://community.microfocus.com/collaboration/oes/w/oes_tips/9928/ntradping-1-5-radius-test-utility]
 
 ```
 [root@yourserver:~]# radiusd -X
